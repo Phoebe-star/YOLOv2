@@ -1,0 +1,5 @@
+classes= 1
+train  = /home/fuzzylab/train/darknet/scripts/train.txt
+valid  = /home/fuzzylab/train/darknet/scripts/val.txt
+names = data/yolov2.names
+backup = backup_sky_608
