@@ -1,0 +1,9 @@
+python 123.py /home/fuzzylab/train/darknet/results/validationperson.txt /home/fuzzylab/train/darknet/scripts/val.txt person
+
+
+
+python voc_eval.py /home/fuzzylab/train/darknet/results/validationperson.txt /home/fuzzylab/train/darknet/scripts/val.txt person
+
+
+
+https://blog.csdn.net/lucky__ing/article/details/78310510
