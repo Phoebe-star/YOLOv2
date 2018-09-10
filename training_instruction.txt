@@ -1,0 +1,23 @@
+./darknet detector train cfg/voc.data cfg/yolo-voc.cfg yolo-voc0412.weights
+
+
+sky : 
+./darknet detector train cfg/voc.data cfg/yolov2.cfg backup_sky_608/yolov2_29000000.weights
+./darknet detector demo cfg/voc.data cfg/yolov2.cfg backup/yolov2_29010000.weights /home/fuzzylab/Videos/top-0.mp4
+
+
+
+
+./darknet detector demo cfg/voc.data cfg/yolo-voc.cfg yolo.weights
+
+
+
+
+
+./darknet detector demo cfg/voc.data cfg/yolo-voc.cfg backup/yolo-voc_final.weights /home/fuzzylab/Downloads/581-3.mp4
+
+
+
+
+https://blog.csdn.net/lucky__ing/article/details/78310510
+./darknet detector valid cfg/yolov2.data cfg/yolov2.cfg yolov2.weights -out validation -thresh 0.5
